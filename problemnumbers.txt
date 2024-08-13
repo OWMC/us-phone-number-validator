@@ -1,0 +1,10 @@
+ 1 555)555-5555      -> one parenthesis
+ 555)-555-5555       -> one parenthesis
+ (555-555-5555       -> one parenthesis
+ (555)5(55?)-5555    -> 2 sets of parenthesis
+
+ (6054756961)        -> starts and ends with parenthesis
+
+ -1 (757) 622-7382   -> starts with -
+ 
+ 55 55-55-555-5      -> hyphen in wrong place
