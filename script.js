@@ -2,13 +2,15 @@
 // 
 // remove parentheses, hyphens, and spaces
 // 
-// a valid number:
+// a valid number according to tests:
 //     - has an area code so is at least 10 digits long
 //     - if it's longer than 10 digits, it has a country code, which can only be usa 1, so is only valid if it has 11 digits
 //     - so can be 10 digits long, or 11 if the first digit is 1
 //     - last 4 chars are numbers
 //     - has no more than 1 set of parentheses
 //     - doesn't start with a hyphen
+//
+// Please note, I somewhat robotically wrote this according to FCC tests just to complete the challenge, somewhat ignoring real world context. If I were to write code that produced a phone number validator in the real world, I would write this differently, possibly being more restrictive in what characters were accepted in the input field.
 
 const input = document.getElementById("user-input");
 const result = document.getElementById("results-div");
